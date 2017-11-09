@@ -3,5 +3,12 @@
   "version": "0.1.0",
   "peerDependencies": {
     "neutrino": "^7.0.0"
+  },
+  "dependencies": {
+    "@types/webpack-env": "^1.13.2",
+    "awesome-typescript-loader": "^3.3.0",
+    "tslint": "^5.8.0",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.6.1"
   }
 }
