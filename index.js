@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = (neutrino, options = {}) => {
 	neutrino.config.entry('index').add(path.join(neutrino.options.source, 'index.tsx'));
 	neutrino.config.resolve.extensions.add('.ts').add('.tsx');
