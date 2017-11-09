@@ -1,0 +1,7 @@
+{
+  "name": "neutrino-preset-typescript-react",
+  "version": "0.1.0",
+  "peerDependencies": {
+    "neutrino": "^7.0.0"
+  }
+}
