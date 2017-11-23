@@ -7,7 +7,11 @@ module.exports = (neutrino, options = {}) => {
 		.rule('typescript')
 		.test(/\.tsx?$/)
 			.use('awesome-typescript-loader')
-				.loader('awesome-typescript-loader?silent=true');
+				.loader('awesome-typescript-loader')
+				.options({
+					silent: true,
+					reportFiles: ['src/**/*.{ts,tsx}']
+				});
 	neutrino.config.module
 		.rule('tslint')
 		.test(/\.tsx?$/)
